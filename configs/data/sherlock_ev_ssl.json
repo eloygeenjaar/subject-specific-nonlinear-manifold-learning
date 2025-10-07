@@ -1,0 +1,11 @@
+{
+    "data": {
+        "type": "SherlockSSL",
+        "args":{
+            "roi_name": "EV",
+            "batch_size": 256,
+            "time_shuffle": true,
+            "num_workers": 5
+        }
+    }
+}

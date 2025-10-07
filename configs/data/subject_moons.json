@@ -1,0 +1,11 @@
+{
+    "data": {
+        "type": "SubjectMoons",
+        "args":{
+            "roi_name": "WholeBrain",
+            "batch_size": 512,
+            "time_shuffle": false,
+            "num_workers": 5
+        }
+    }
+}

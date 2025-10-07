@@ -1,0 +1,9 @@
+{
+    "name": "Group-VAE",
+    "arch": {
+        "type": "VAE",
+        "args": {
+            "layer_type": "Group"
+        }
+    }
+}

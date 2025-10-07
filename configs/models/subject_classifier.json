@@ -1,0 +1,9 @@
+{
+    "name": "Subject-Classifier",
+    "arch": {
+        "type": "Classifier",
+        "args": {
+            "layer_type": "Subject"
+        }
+    }
+}

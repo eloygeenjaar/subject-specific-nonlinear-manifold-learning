@@ -1,0 +1,9 @@
+{
+    "name": "Group-Classifier",
+    "arch": {
+        "type": "Classifier",
+        "args": {
+            "layer_type": "Group"
+        }
+    }
+}

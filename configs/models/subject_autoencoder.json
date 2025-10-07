@@ -1,0 +1,9 @@
+{
+    "name": "Subject-AutoEncoder",
+    "arch": {
+        "type": "AutoEncoder",
+        "args": {
+            "layer_type": "Subject"
+        }
+    }
+}

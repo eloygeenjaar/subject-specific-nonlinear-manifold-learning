@@ -1,0 +1,29 @@
+{
+    "run_type": "tvae",
+    "hyperparameter_range": {
+        "num_layers": [1, 2, 3, 4],
+        "hidden_dim": [64, 128, 256],
+        "dropout": [0.0, 0.1],
+        "seed": [42, 1337, 9999, 1212]
+    },
+    "trainer": {
+        "epochs": 500,
+
+        "save_dir": "saved/tvae/",
+        "verbosity": 2,
+        "lambda_step": 0.0005
+
+    },
+    "optimizer": {
+        "type": "Adam",
+        "args":{
+            "lr": 0.001,
+            "weight_decay": 0,
+            "amsgrad": false
+        }
+    },
+    "loss": "temporal_elbo",
+    "metrics": [
+        "kl_loss", "nll", "temporal_l2", "temporal_corr"
+    ]
+}

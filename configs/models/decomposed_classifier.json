@@ -1,0 +1,9 @@
+{
+    "name": "Decomposed-Classifier",
+    "arch": {
+        "type": "Classifier",
+        "args": {
+            "layer_type": "Decomposed"
+        }
+    }
+}

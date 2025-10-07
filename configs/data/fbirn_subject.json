@@ -1,0 +1,11 @@
+{
+    "data": {
+        "type": "fBIRNSubject",
+        "args":{
+            "roi_name": "WholeBrain",
+            "batch_size": 16,
+            "time_shuffle": false,
+            "num_workers": 5
+        }
+    }
+}

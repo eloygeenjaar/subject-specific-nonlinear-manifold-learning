@@ -1,0 +1,9 @@
+{
+    "name": "Decomposed-VAE",
+    "arch": {
+        "type": "VAE",
+        "args": {
+            "layer_type": "Decomposed"
+        }
+    }
+}
