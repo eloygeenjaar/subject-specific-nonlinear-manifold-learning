@@ -1,0 +1,25 @@
+#/bin/bash
+sbatch --array=0-95 scripts/run_sherlockaud_decomposed.sh
+sbatch --array=0-95 scripts/run_sherlockaud_group.sh
+sbatch --array=0-95 scripts/run_sherlockaud_subject.sh
+sbatch --array=0-95 scripts/run_sherlockev_decomposed.sh
+sbatch --array=0-95 scripts/run_sherlockev_group.sh
+sbatch --array=0-95 scripts/run_sherlockev_subject.sh
+sbatch --array=0-95 scripts/run_sherlockpmc_decomposed.sh
+sbatch --array=0-95 scripts/run_sherlockpmc_group.sh
+sbatch --array=0-95 scripts/run_sherlockpmc_subject.sh
+sbatch --array=0-95 scripts/run_sherlockwhole_decomposed.sh
+sbatch --array=0-95 scripts/run_sherlockwhole_group.sh
+sbatch --array=0-95 scripts/run_tfbirn_decomposed.sh
+sbatch --array=0-95 scripts/run_tfbirn_group.sh
+sbatch --array=0-95 scripts/run_forrestaud_decomposed.sh
+sbatch --array=0-95 scripts/run_forrestaud_group.sh
+sbatch --array=0-95 scripts/run_forrestaud_subject.sh
+sbatch --array=0-95 scripts/run_forrestdmn_decomposed.sh
+sbatch --array=0-95 scripts/run_forrestdmn_group.sh
+sbatch --array=0-95 scripts/run_forrestdmn_subject.sh
+sbatch --array=0-95 scripts/run_forrestcc_decomposed.sh
+sbatch --array=0-95 scripts/run_forrestcc_group.sh
+sbatch --array=0-95 scripts/run_forrestcc_subject.sh
+sbatch --array=0-95 scripts/run_forrestwhole_decomposed.sh
+sbatch --array=0-95 scripts/run_forrestwhole_group.sh
